@@ -24,6 +24,8 @@ class calculator:
         return x * y
 
     def divide(self, x, y):
+        if y == 0:
+            raise ZeroDivisionError("division by zero")
         return x / y
 
     def power(self, x, y):
