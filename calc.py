@@ -30,3 +30,4 @@ class calculator:
 
     def power(self, x, y):
         return x ** y
+
